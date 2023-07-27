@@ -2,6 +2,8 @@
 
 Game Talk is a web application that provides information about various games, gameplay videos, and details about gaming companies. It allows users to explore trending games, read reviews, and add their favorite games to a dedicated favorites list.
 
+**LINK TO BACK-END APPLICATION** :[https://github.com/gykunju/phase-3-sinatra-react-project.git]
+
 ## Table of Contents
 
 - [Features](#features)
