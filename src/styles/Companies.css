@@ -1,0 +1,15 @@
+.company_card{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+} 
+
+.company-card-info{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 250px;
+    text-align: center;
+    margin-left: 400px; 
+}

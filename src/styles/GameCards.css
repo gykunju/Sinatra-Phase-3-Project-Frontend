@@ -6,7 +6,7 @@
 
 .card {
     width: 300px;
-    background-color: #282828;
+    background-image: linear-gradient(#282828,#817d7d,#282828);
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -20,9 +20,14 @@
   }
   
   .card img {
-    width: 200%;
     border-radius: 8px;
     margin-bottom: 10px;
+  }
+
+  .card img:hover{
+    transform: translateY(-5px);
+    /* box-shadow: 10px 10px gold; */
+    filter: drop-shadow(10px 10px 50px gold);
   }
   
   .title {
@@ -128,8 +133,8 @@
     text-align: center;
   }
 
-  .comments-section hr{
-    width: 20px;
+  .comments-section h4{
+    text-align: center;
   }
 
 
@@ -139,7 +144,7 @@
     justify-content: space-between;
   }
   
-  .comments-header {
+  .my-buttons{
     color: #673a3a;
     cursor: pointer;
     margin-top: 10px;
@@ -148,12 +153,21 @@
     border: 1px solid #18181a;
     padding:10px;
     border-radius: 5px;
+    margin-bottom: 1px;
+    background-color: #ccc;
+    box-shadow: 2px 2px 2px #ccc;
+    transition: transform 0.2s, box-shadow 0.2s;
   }
   
-  .comments-header:hover {
+  .my-buttons:hover {
     background-color: #786767;
     font-size: 15px;
   } 
+
+  .my-buttons:active{
+    transform: translateX(2px) translateY(2px);
+    box-shadow: 2px 2px 2px #ccc;
+  }
 
   .form{
     margin-top: 10px;
@@ -183,11 +197,32 @@
   }
 
   .favorite{
-    background-color: rgb(48, 36, 31);
-    border-radius: 40px;
+    color: #673a3a;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid #18181a;
+    padding:10px;
+    border-radius: 5px;
+    margin-bottom: 1px;
+    background-color: #ccc;
+    box-shadow: 2px 2px 2px #ccc;
+    transition: transform 0.2s, box-shadow 0.2s;
   }
 
   .favorite-not{
-    background-color: #a9a27d;
-    border-radius: 40px;
+    margin-right: 0px;
+    color: #673a3a;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid #18181a;
+    padding:10px;
+    border-radius: 5px;
+    margin-bottom: 1px;
+    background-color: goldenrod;
+    box-shadow: 2px 2px 2px #ccc;
+    transition: transform 0.2s, box-shadow 0.2s;
   }

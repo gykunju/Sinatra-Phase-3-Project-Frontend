@@ -13,7 +13,7 @@ function Companies({baseURL}) {
         {companies.map(company=>{
             return(
                 <div className="company_card">
-                    <div className="card-info">
+                    <div className="company-card-info">
                         <img src={company.image}/>
                         <a href={company.web_link} className="title">{company.name}</a>
                         <p className="title">{company.description}</p>

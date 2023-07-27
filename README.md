@@ -1,70 +1,102 @@
-# Getting Started with Create React App
+# Game Talk - Your Source for Game Knowledge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Game Talk is a web application that provides information about various games, gameplay videos, and details about gaming companies. It allows users to explore trending games, read reviews, and add their favorite games to a dedicated favorites list.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Home:** Discover trending games based on different genres. Sort games by likes to find the most popular ones.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. **Gameplay:** Watch gameplay videos of various games to get a glimpse of their action and mechanics.
 
-### `npm test`
+3. **Companies:** Explore information about gaming companies, including their description and website links.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4. **Favorites:** Save your favorite games to the favorites list, allowing easy access to the games you love.
 
-### `npm run build`
+## Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Before you begin using the Game Talk web application, ensure you have the following requirements met:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Node.js and npm installed on your machine.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Ruby and Sinatra installed on your machine to run the backend server.
 
-### `npm run eject`
+## Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Follow the steps below to set up and run the Game Talk application:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone the repository from GitHub:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+git clone https://github.com/your-username/game-talk.git
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. Change into the project directory:
 
-## Learn More
+```
+cd game-talk
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. Install the frontend dependencies:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+npm install
+```
 
-### Code Splitting
+4. Install the backend dependencies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```
+bundle install
+```
 
-### Analyzing the Bundle Size
+## Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1. Start the backend server:
 
-### Making a Progressive Web App
+```
+ruby app.rb
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+2. Start the frontend development server:
 
-### Advanced Configuration
+```
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+3. Visit `http://localhost:3000` in your web browser to access Game Talk.
 
-### Deployment
+## Technologies Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- React.js: Frontend JavaScript library for building user interfaces.
+- Redux: State management library for handling global application state.
+- Redux Thunk: Middleware for handling asynchronous actions in Redux.
+- React Router: Library for handling routing in the application.
+- Ruby: Backend language for the server.
+- Sinatra: Lightweight web application framework for Ruby.
+- CSS: Styling the components and layout.
+- HTML: Markup language for structuring the web page.
 
-### `npm run build` fails to minify
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If you'd like to contribute to Game Talk, feel free to create issues, fork the repository, and submit pull requests. We welcome your contributions!
+
+## License
+
+The Game Talk project is open-source and available under the [MIT License](https://opensource.org/licenses/MIT).
+
+## Contact
+
+If you have any questions or suggestions about Game Talk, please feel free to reach out to the project maintainer:
+
+- Project Maintainer: [Your Name](mailto:your.email@example.com)
+- GitHub: [Your GitHub Profile](https://github.com/your-username)

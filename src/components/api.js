@@ -1,7 +1,8 @@
 
-export const fetchGames = async (baseURL) =>{
-    const response = await fetch(`${baseURL}/games`)
+export const fetchGames = async (baseURL, state) =>{
+    const response = await fetch(`${baseURL}/games/${state}`)
     const data = await response.json()
+    console.log(data)
     return data
 }
 

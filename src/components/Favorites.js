@@ -3,7 +3,7 @@ import '../styles/GameCards.css'
 import GameCards from './GameCards'
 import { fetchFavorites } from './api'
 
-function Favorites({baseURL, favorited,}) {
+function Favorites({baseURL}) {
 
   const [favorites, setFavorites] = useState([])
 
@@ -26,7 +26,7 @@ function Favorites({baseURL, favorited,}) {
         baseURL={baseURL}
         />
       ))}
-      {favorites.length === 0 && <h1 className="empty-favorites">No favorites added yet.</h1>}
+      {favorites.length === 0 && <h1 style={{marginLeft:"500px", marginTop:"200px", marginBottom:"300px"}}className="empty-favorites">No favorites added yet.</h1>}
     </div>
   )
 }
