@@ -1,0 +1,193 @@
+.home {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Adjust as needed */
+  }
+
+.card {
+    width: 300px;
+    background-color: #282828;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .card img {
+    width: 200%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .title {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    color: #ccc;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  a {
+    color: #1a73e8;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  small {
+    color: #999;
+    font-size: 12px;
+  }
+  
+  .small-margin {
+    margin-bottom: 5px;
+  }
+
+
+  .select-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.select {
+    font-size: 16px;
+    padding: 10px;
+    border: 2px solid #282828;
+    border-radius: 5px;
+    background-color: #282828;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+}
+
+.select option {
+    background-color: #282828;
+    color: #fff;
+}
+
+#currentState {
+    color: #271616;
+    margin-top: 10px;
+}
+
+/* heart */
+/* Likes styles */
+.likes {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  /* Heart icon styles */
+  .heart-icon {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin-right: 5px;
+    width: 24px;
+    height: 24px;
+    fill: #ccc;
+  }
+  
+  .heart-icon.liked {
+    fill: red;
+  }
+  
+  .like-count {
+    color: #ccc;
+    font-size: 14px;
+  }
+  
+  /* Comments section styles */
+   .comments-section {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    /* display: none; Hide comments section by default */
+  }
+
+  .comments-section p{
+    margin-top: 2px;
+    text-align: center;
+  }
+
+  .comments-section hr{
+    width: 20px;
+  }
+
+
+  .button-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .comments-header {
+    color: #673a3a;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid #18181a;
+    padding:10px;
+    border-radius: 5px;
+  }
+  
+  .comments-header:hover {
+    background-color: #786767;
+    font-size: 15px;
+  } 
+
+  .form{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .form textarea{
+    margin-top: 10px;
+  }
+
+  .like-favorite{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /* favorite */
+  .checkbox-wrapper{
+    padding: 10px;
+
+  }
+
+  .checkbox-input{
+    padding: 40px;
+    background-color: black;
+  }
+
+  .favorite{
+    background-color: rgb(48, 36, 31);
+    border-radius: 40px;
+  }
+
+  .favorite-not{
+    background-color: #a9a27d;
+    border-radius: 40px;
+  }
